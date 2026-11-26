@@ -1,0 +1,7 @@
+payer_id,payer_name,payer_type
+1,  BlueStar Health ,commercial
+2,united care plus,COMMERCIAL
+3,Medicare Part B,medicare
+4,MEDICARE ADVANTAGE ONE,Medicare
+5,State Medicaid,medicaid
+6,Self Pay,self-pay

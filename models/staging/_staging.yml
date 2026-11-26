@@ -1,0 +1,69 @@
+version: 2
+
+models:
+  - name: stg_payers
+    description: One row per payer, names trimmed and payer types standardised.
+    columns:
+      - name: payer_id
+        tests: [unique, not_null]
+      - name: payer_type
+        tests:
+          - not_null
+          - accepted_values:
+              values: [Commercial, Medicare, Medicaid, Self-Pay]
+
+  - name: stg_providers
+    description: One row per rendering provider.
+    columns:
+      - name: provider_id
+        tests: [unique, not_null]
+
+  - name: stg_claims
+    description: One row per claim. Duplicate extract rows removed, status codes lower-cased.
+    columns:
+      - name: claim_id
+        tests: [unique, not_null]
+      - name: provider_id
+        tests:
+          - not_null
+          - relationships: {to: ref('stg_providers'), field: provider_id}
+      - name: payer_id
+        tests:
+          - not_null
+          - relationships: {to: ref('stg_payers'), field: payer_id}
+      - name: claim_status
+        tests:
+          - accepted_values:
+              values: [paid, denied, pending]
+      - name: service_date
+        tests:
+          - not_null
+          - not_after: {other_column: submission_date}
+      - name: billed_amount
+        tests: [not_null, non_negative]
+      - name: allowed_amount
+        tests: [non_negative]
+
+  - name: stg_payments
+    description: One row per remittance.
+    columns:
+      - name: payment_id
+        tests: [unique, not_null]
+      - name: claim_id
+        tests:
+          - unique
+          - relationships: {to: ref('stg_claims'), field: claim_id}
+      - name: paid_amount
+        tests: [non_negative]
+
+  - name: stg_denials
+    description: One row per denial with CARC code and group.
+    columns:
+      - name: denial_id
+        tests: [unique, not_null]
+      - name: claim_id
+        tests:
+          - relationships: {to: ref('stg_claims'), field: claim_id}
+      - name: denial_group
+        tests:
+          - accepted_values: {values: [CO, PR]}

@@ -1,0 +1,25 @@
+provider_id,provider_name,specialty,city
+1,Dr. Provider 01,Cardiology,Austin
+2,Dr. Provider 02,Orthopedics,Austin
+3,Dr. Provider 03,Primary Care,Phoenix
+4,Dr. Provider 04,Dermatology,Denver
+5,DR. PROVIDER 05 ,Radiology,Denver
+6,Dr. Provider 06,Pediatrics,Denver
+7,Dr. Provider 07,Cardiology,Austin
+8,Dr. Provider 08,Orthopedics,Austin
+9,Dr. Provider 09,Primary Care,Atlanta
+10,DR. PROVIDER 10 ,Dermatology,Austin
+11,Dr. Provider 11,Radiology,Austin
+12,Dr. Provider 12,Pediatrics,Austin
+13,Dr. Provider 13,Cardiology,Denver
+14,Dr. Provider 14,Orthopedics,Denver
+15,DR. PROVIDER 15 ,Primary Care,Austin
+16,Dr. Provider 16,Dermatology,Denver
+17,Dr. Provider 17,Radiology,Atlanta
+18,Dr. Provider 18,Pediatrics,Denver
+19,Dr. Provider 19,Cardiology,Atlanta
+20,DR. PROVIDER 20 ,Orthopedics,Phoenix
+21,Dr. Provider 21,Primary Care,Austin
+22,Dr. Provider 22,Dermatology,Denver
+23,Dr. Provider 23,Radiology,Atlanta
+24,Dr. Provider 24,Pediatrics,Phoenix
