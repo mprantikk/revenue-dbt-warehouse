@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: dim_payers
+    description: Payer dimension.
+    columns:
+      - name: payer_id
+        tests: [unique, not_null]
+
+  - name: dim_providers
+    description: Provider dimension.
+    columns:
+      - name: provider_id
+        tests: [unique, not_null]
+
+  - name: fct_claims
+    description: >
+      Claim-grain fact table. One row per claim with payment, denial, charge lag,
+      days to payment and clean-claim flag. Every finance mart is built from this.
+    columns:
+      - name: claim_id
+        tests: [unique, not_null]
+      - name: payer_id
+        tests:
+          - relationships: {to: ref('dim_payers'), field: payer_id}
+      - name: provider_id
+        tests:
+          - relationships: {to: ref('dim_providers'), field: provider_id}
+      - name: days_to_payment
+        description: Days from date of service to payment (paid claims only).
+        tests: [non_negative]
+      - name: charge_lag_days
+        tests: [not_null, non_negative]
+
+  - name: mart_payer_performance
+    description: Denial rate, clean claim rate, days to payment, charge lag and net collection rate per payer.
+    columns:
+      - name: payer_name
+        tests: [unique, not_null]
+      - name: denial_rate_pct
+        tests: [not_null, non_negative]
+
+  - name: mart_monthly_revenue
+    description: Monthly billed vs collected with rolling 3-month collection rate.
+    columns:
+      - name: service_month
+        tests: [unique, not_null]
+
+  - name: mart_denial_reasons
+    description: Denials by CARC code with dollars at risk and preventability.
+    columns:
+      - name: denial_code
+        tests: [unique, not_null]
+
+  - name: mart_ar_aging
+    description: Open claims by aging bucket.
+    columns:
+      - name: aging_bucket
+        tests:
+          - unique
+          - accepted_values: {values: ['0-30', '31-60', '61-90', '90+']}

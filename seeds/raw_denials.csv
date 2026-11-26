@@ -1,0 +1,662 @@
+denial_id,claim_id,denial_date,denial_code,denial_reason
+1,2,2025-08-03,PR-1,Deductible amount
+2,3,2025-02-18,CO-16,Claim lacks information needed for adjudication
+3,11,2024-10-05,CO-16,Claim lacks information needed for adjudication
+4,12,2024-10-25,CO-97,Benefit included in another service
+5,13,2025-01-28,CO-97,Benefit included in another service
+6,22,2025-12-03,CO-197,Precertification or authorization absent
+7,26,2024-10-22,PR-1,Deductible amount
+8,27,2025-04-19,CO-197,Precertification or authorization absent
+9,33,2025-09-25,CO-11,Diagnosis inconsistent with procedure
+10,36,2025-10-27,CO-16,Claim lacks information needed for adjudication
+11,38,2025-01-12,CO-16,Claim lacks information needed for adjudication
+12,50,2024-05-29,CO-29,Time limit for filing expired
+13,51,2025-03-16,CO-29,Time limit for filing expired
+14,52,2024-03-09,CO-16,Claim lacks information needed for adjudication
+15,53,2025-04-22,CO-97,Benefit included in another service
+16,58,2024-10-12,CO-16,Claim lacks information needed for adjudication
+17,64,2025-08-16,CO-97,Benefit included in another service
+18,68,2024-02-25,CO-197,Precertification or authorization absent
+19,94,2024-03-07,CO-197,Precertification or authorization absent
+20,97,2024-01-18,PR-1,Deductible amount
+21,100,2025-11-05,CO-16,Claim lacks information needed for adjudication
+22,109,2024-07-09,CO-97,Benefit included in another service
+23,113,2025-09-11,CO-16,Claim lacks information needed for adjudication
+24,125,2024-06-23,CO-97,Benefit included in another service
+25,128,2025-04-12,PR-1,Deductible amount
+26,129,2025-11-06,CO-11,Diagnosis inconsistent with procedure
+27,132,2026-01-11,CO-16,Claim lacks information needed for adjudication
+28,140,2025-07-08,CO-197,Precertification or authorization absent
+29,150,2025-11-05,CO-197,Precertification or authorization absent
+30,156,2024-06-02,CO-29,Time limit for filing expired
+31,160,2025-06-20,CO-11,Diagnosis inconsistent with procedure
+32,161,2024-06-20,CO-16,Claim lacks information needed for adjudication
+33,162,2025-05-15,CO-97,Benefit included in another service
+34,163,2025-06-16,CO-97,Benefit included in another service
+35,165,2025-11-02,CO-16,Claim lacks information needed for adjudication
+36,170,2024-06-29,CO-97,Benefit included in another service
+37,177,2024-07-13,CO-16,Claim lacks information needed for adjudication
+38,181,2024-10-04,CO-197,Precertification or authorization absent
+39,188,2024-05-31,CO-16,Claim lacks information needed for adjudication
+40,189,2025-12-09,CO-16,Claim lacks information needed for adjudication
+41,202,2025-10-19,CO-197,Precertification or authorization absent
+42,205,2024-04-17,CO-97,Benefit included in another service
+43,207,2024-10-24,CO-16,Claim lacks information needed for adjudication
+44,209,2024-04-13,PR-1,Deductible amount
+45,211,2025-09-24,CO-16,Claim lacks information needed for adjudication
+46,213,2025-03-07,CO-29,Time limit for filing expired
+47,224,2024-05-05,CO-11,Diagnosis inconsistent with procedure
+48,227,2025-10-06,CO-16,Claim lacks information needed for adjudication
+49,240,2025-05-07,CO-97,Benefit included in another service
+50,247,2025-04-22,CO-97,Benefit included in another service
+51,254,2025-12-13,CO-29,Time limit for filing expired
+52,263,2025-11-22,CO-11,Diagnosis inconsistent with procedure
+53,273,2025-10-20,CO-11,Diagnosis inconsistent with procedure
+54,274,2024-10-04,PR-1,Deductible amount
+55,284,2024-12-26,CO-197,Precertification or authorization absent
+56,285,2024-04-04,CO-197,Precertification or authorization absent
+57,288,2025-09-22,CO-16,Claim lacks information needed for adjudication
+58,294,2024-11-28,CO-16,Claim lacks information needed for adjudication
+59,297,2024-05-10,CO-197,Precertification or authorization absent
+60,308,2025-11-15,CO-11,Diagnosis inconsistent with procedure
+61,315,2024-06-20,PR-1,Deductible amount
+62,325,2025-06-05,PR-1,Deductible amount
+63,329,2025-12-28,CO-50,Non-covered service
+64,331,2025-06-09,CO-16,Claim lacks information needed for adjudication
+65,333,2025-12-21,CO-197,Precertification or authorization absent
+66,338,2024-11-23,CO-197,Precertification or authorization absent
+67,340,2025-09-12,CO-16,Claim lacks information needed for adjudication
+68,346,2024-05-06,PR-1,Deductible amount
+69,347,2024-10-14,CO-16,Claim lacks information needed for adjudication
+70,349,2024-12-16,PR-1,Deductible amount
+71,361,2025-04-20,PR-1,Deductible amount
+72,365,2025-05-15,CO-16,Claim lacks information needed for adjudication
+73,369,2024-06-27,CO-29,Time limit for filing expired
+74,370,2025-09-13,CO-197,Precertification or authorization absent
+75,382,2025-06-04,CO-29,Time limit for filing expired
+76,383,2025-11-22,CO-16,Claim lacks information needed for adjudication
+77,385,2025-10-01,CO-197,Precertification or authorization absent
+78,387,2024-08-18,CO-11,Diagnosis inconsistent with procedure
+79,394,2024-08-08,CO-197,Precertification or authorization absent
+80,396,2025-09-09,CO-97,Benefit included in another service
+81,399,2024-08-28,CO-97,Benefit included in another service
+82,402,2026-01-06,CO-11,Diagnosis inconsistent with procedure
+83,406,2024-12-11,CO-16,Claim lacks information needed for adjudication
+84,408,2024-08-21,CO-11,Diagnosis inconsistent with procedure
+85,411,2025-01-21,CO-97,Benefit included in another service
+86,418,2025-11-29,CO-197,Precertification or authorization absent
+87,419,2024-11-07,CO-11,Diagnosis inconsistent with procedure
+88,420,2024-10-23,CO-50,Non-covered service
+89,421,2024-11-06,CO-11,Diagnosis inconsistent with procedure
+90,422,2025-02-13,CO-16,Claim lacks information needed for adjudication
+91,435,2025-03-18,PR-1,Deductible amount
+92,436,2024-04-24,CO-197,Precertification or authorization absent
+93,440,2024-03-03,CO-16,Claim lacks information needed for adjudication
+94,460,2024-04-02,PR-1,Deductible amount
+95,462,2025-10-21,CO-97,Benefit included in another service
+96,467,2025-08-20,CO-197,Precertification or authorization absent
+97,470,2025-12-22,CO-97,Benefit included in another service
+98,505,2024-06-26,CO-97,Benefit included in another service
+99,507,2025-03-28,CO-29,Time limit for filing expired
+100,508,2025-03-12,CO-97,Benefit included in another service
+101,520,2025-07-26,CO-16,Claim lacks information needed for adjudication
+102,521,2025-10-10,CO-11,Diagnosis inconsistent with procedure
+103,529,2024-07-31,PR-1,Deductible amount
+104,531,2024-03-28,CO-50,Non-covered service
+105,536,2024-02-27,CO-16,Claim lacks information needed for adjudication
+106,539,2024-10-01,CO-29,Time limit for filing expired
+107,556,2025-10-20,CO-16,Claim lacks information needed for adjudication
+108,557,2024-04-20,CO-29,Time limit for filing expired
+109,568,2025-02-14,PR-1,Deductible amount
+110,577,2025-07-28,CO-11,Diagnosis inconsistent with procedure
+111,580,2025-07-07,CO-29,Time limit for filing expired
+112,583,2024-08-17,CO-50,Non-covered service
+113,590,2024-03-27,PR-1,Deductible amount
+114,595,2025-04-27,CO-197,Precertification or authorization absent
+115,598,2025-01-20,CO-50,Non-covered service
+116,599,2024-09-20,CO-29,Time limit for filing expired
+117,601,2025-08-28,CO-197,Precertification or authorization absent
+118,607,2025-04-14,CO-29,Time limit for filing expired
+119,608,2024-07-13,CO-197,Precertification or authorization absent
+120,609,2025-11-15,CO-97,Benefit included in another service
+121,610,2025-05-28,CO-29,Time limit for filing expired
+122,623,2025-03-19,CO-16,Claim lacks information needed for adjudication
+123,627,2025-03-02,CO-16,Claim lacks information needed for adjudication
+124,638,2024-07-23,CO-16,Claim lacks information needed for adjudication
+125,640,2024-08-21,PR-1,Deductible amount
+126,643,2024-03-15,CO-11,Diagnosis inconsistent with procedure
+127,659,2026-01-31,PR-1,Deductible amount
+128,660,2025-08-18,CO-29,Time limit for filing expired
+129,666,2024-12-07,CO-197,Precertification or authorization absent
+130,668,2024-06-14,CO-197,Precertification or authorization absent
+131,670,2024-06-10,CO-50,Non-covered service
+132,681,2025-08-24,CO-197,Precertification or authorization absent
+133,690,2024-08-19,CO-11,Diagnosis inconsistent with procedure
+134,695,2025-02-11,CO-97,Benefit included in another service
+135,696,2025-11-02,CO-29,Time limit for filing expired
+136,702,2024-07-04,CO-197,Precertification or authorization absent
+137,703,2024-12-30,CO-197,Precertification or authorization absent
+138,707,2024-02-08,CO-97,Benefit included in another service
+139,739,2025-02-10,CO-197,Precertification or authorization absent
+140,743,2024-02-24,CO-11,Diagnosis inconsistent with procedure
+141,767,2024-07-23,PR-1,Deductible amount
+142,771,2024-09-17,CO-29,Time limit for filing expired
+143,774,2024-12-27,CO-50,Non-covered service
+144,782,2025-12-05,CO-11,Diagnosis inconsistent with procedure
+145,803,2024-10-26,CO-50,Non-covered service
+146,804,2024-05-30,CO-97,Benefit included in another service
+147,820,2025-02-19,CO-11,Diagnosis inconsistent with procedure
+148,848,2024-10-25,CO-29,Time limit for filing expired
+149,855,2024-06-17,CO-16,Claim lacks information needed for adjudication
+150,867,2024-06-14,CO-197,Precertification or authorization absent
+151,868,2024-04-05,CO-11,Diagnosis inconsistent with procedure
+152,875,2025-04-07,CO-29,Time limit for filing expired
+153,884,2024-04-27,CO-97,Benefit included in another service
+154,885,2025-12-08,CO-50,Non-covered service
+155,887,2025-12-14,CO-16,Claim lacks information needed for adjudication
+156,894,2025-06-27,CO-197,Precertification or authorization absent
+157,905,2024-08-05,CO-197,Precertification or authorization absent
+158,919,2024-07-26,CO-97,Benefit included in another service
+159,927,2024-09-01,CO-11,Diagnosis inconsistent with procedure
+160,939,2025-10-01,CO-97,Benefit included in another service
+161,949,2025-01-04,CO-16,Claim lacks information needed for adjudication
+162,955,2024-06-19,CO-16,Claim lacks information needed for adjudication
+163,958,2025-11-28,CO-16,Claim lacks information needed for adjudication
+164,960,2025-03-28,CO-16,Claim lacks information needed for adjudication
+165,962,2025-12-27,CO-97,Benefit included in another service
+166,967,2024-11-29,CO-29,Time limit for filing expired
+167,969,2025-04-30,CO-11,Diagnosis inconsistent with procedure
+168,983,2024-03-05,CO-197,Precertification or authorization absent
+169,989,2024-05-01,CO-50,Non-covered service
+170,995,2024-08-29,CO-11,Diagnosis inconsistent with procedure
+171,1002,2025-06-06,CO-16,Claim lacks information needed for adjudication
+172,1012,2024-09-30,CO-29,Time limit for filing expired
+173,1014,2024-12-05,CO-197,Precertification or authorization absent
+174,1018,2025-03-08,CO-11,Diagnosis inconsistent with procedure
+175,1023,2025-11-16,CO-197,Precertification or authorization absent
+176,1025,2024-01-21,CO-97,Benefit included in another service
+177,1027,2025-11-12,CO-11,Diagnosis inconsistent with procedure
+178,1029,2024-01-28,CO-29,Time limit for filing expired
+179,1031,2025-02-03,CO-50,Non-covered service
+180,1032,2024-06-15,CO-97,Benefit included in another service
+181,1037,2026-01-25,CO-16,Claim lacks information needed for adjudication
+182,1038,2024-04-29,CO-29,Time limit for filing expired
+183,1041,2024-05-12,CO-16,Claim lacks information needed for adjudication
+184,1052,2025-09-01,PR-1,Deductible amount
+185,1056,2025-01-11,PR-1,Deductible amount
+186,1061,2025-06-27,CO-50,Non-covered service
+187,1063,2024-03-01,CO-11,Diagnosis inconsistent with procedure
+188,1079,2024-08-02,CO-50,Non-covered service
+189,1093,2025-07-18,CO-50,Non-covered service
+190,1100,2024-07-19,CO-97,Benefit included in another service
+191,1101,2025-01-05,PR-1,Deductible amount
+192,1118,2024-12-05,CO-50,Non-covered service
+193,1127,2025-10-16,CO-16,Claim lacks information needed for adjudication
+194,1131,2024-09-07,CO-11,Diagnosis inconsistent with procedure
+195,1133,2025-02-19,CO-97,Benefit included in another service
+196,1138,2024-07-26,CO-16,Claim lacks information needed for adjudication
+197,1153,2024-12-26,CO-29,Time limit for filing expired
+198,1165,2026-01-13,CO-197,Precertification or authorization absent
+199,1169,2025-09-10,PR-1,Deductible amount
+200,1170,2024-07-28,CO-197,Precertification or authorization absent
+201,1171,2026-01-09,CO-16,Claim lacks information needed for adjudication
+202,1172,2024-05-03,PR-1,Deductible amount
+203,1177,2025-08-05,CO-11,Diagnosis inconsistent with procedure
+204,1185,2024-07-26,CO-97,Benefit included in another service
+205,1187,2024-08-13,CO-16,Claim lacks information needed for adjudication
+206,1190,2025-08-17,CO-16,Claim lacks information needed for adjudication
+207,1194,2025-08-24,CO-11,Diagnosis inconsistent with procedure
+208,1199,2024-03-06,CO-16,Claim lacks information needed for adjudication
+209,1205,2025-07-15,CO-16,Claim lacks information needed for adjudication
+210,1206,2024-12-30,CO-11,Diagnosis inconsistent with procedure
+211,1207,2025-05-17,CO-29,Time limit for filing expired
+212,1214,2025-11-28,CO-11,Diagnosis inconsistent with procedure
+213,1216,2024-10-06,CO-29,Time limit for filing expired
+214,1217,2025-07-07,CO-16,Claim lacks information needed for adjudication
+215,1219,2025-11-23,CO-16,Claim lacks information needed for adjudication
+216,1221,2024-11-11,CO-50,Non-covered service
+217,1222,2025-08-29,CO-29,Time limit for filing expired
+218,1229,2024-07-27,CO-16,Claim lacks information needed for adjudication
+219,1241,2024-10-25,CO-11,Diagnosis inconsistent with procedure
+220,1245,2024-03-17,CO-197,Precertification or authorization absent
+221,1246,2024-09-03,CO-197,Precertification or authorization absent
+222,1274,2026-01-05,CO-197,Precertification or authorization absent
+223,1278,2024-06-12,CO-11,Diagnosis inconsistent with procedure
+224,1297,2024-03-16,CO-16,Claim lacks information needed for adjudication
+225,1299,2024-02-25,CO-16,Claim lacks information needed for adjudication
+226,1302,2026-01-26,CO-16,Claim lacks information needed for adjudication
+227,1307,2024-03-13,CO-16,Claim lacks information needed for adjudication
+228,1310,2024-10-02,CO-197,Precertification or authorization absent
+229,1316,2025-09-24,CO-16,Claim lacks information needed for adjudication
+230,1319,2024-11-26,CO-11,Diagnosis inconsistent with procedure
+231,1322,2025-04-09,CO-50,Non-covered service
+232,1325,2024-01-21,CO-29,Time limit for filing expired
+233,1332,2024-09-14,CO-11,Diagnosis inconsistent with procedure
+234,1349,2024-09-17,CO-197,Precertification or authorization absent
+235,1352,2025-11-19,CO-16,Claim lacks information needed for adjudication
+236,1359,2025-08-18,CO-16,Claim lacks information needed for adjudication
+237,1360,2025-01-29,CO-29,Time limit for filing expired
+238,1362,2024-12-08,CO-97,Benefit included in another service
+239,1363,2024-07-01,CO-16,Claim lacks information needed for adjudication
+240,1367,2024-12-19,CO-50,Non-covered service
+241,1369,2025-08-21,PR-1,Deductible amount
+242,1390,2025-08-29,CO-16,Claim lacks information needed for adjudication
+243,1396,2025-07-19,CO-29,Time limit for filing expired
+244,1397,2024-05-13,CO-197,Precertification or authorization absent
+245,1398,2024-03-22,CO-11,Diagnosis inconsistent with procedure
+246,1402,2025-06-02,CO-97,Benefit included in another service
+247,1407,2025-09-01,CO-16,Claim lacks information needed for adjudication
+248,1424,2025-10-07,CO-16,Claim lacks information needed for adjudication
+249,1428,2024-05-25,CO-29,Time limit for filing expired
+250,1434,2025-02-12,CO-97,Benefit included in another service
+251,1445,2025-06-27,CO-197,Precertification or authorization absent
+252,1468,2025-07-24,CO-11,Diagnosis inconsistent with procedure
+253,1472,2025-12-18,CO-29,Time limit for filing expired
+254,1475,2024-05-13,PR-1,Deductible amount
+255,1481,2025-03-30,CO-197,Precertification or authorization absent
+256,1507,2024-02-27,CO-16,Claim lacks information needed for adjudication
+257,1521,2024-06-29,CO-16,Claim lacks information needed for adjudication
+258,1525,2025-08-20,CO-197,Precertification or authorization absent
+259,1526,2025-12-04,CO-50,Non-covered service
+260,1528,2025-06-16,CO-16,Claim lacks information needed for adjudication
+261,1532,2025-09-14,CO-97,Benefit included in another service
+262,1533,2024-02-13,CO-197,Precertification or authorization absent
+263,1536,2024-11-10,CO-197,Precertification or authorization absent
+264,1565,2025-10-12,CO-11,Diagnosis inconsistent with procedure
+265,1575,2025-02-02,CO-197,Precertification or authorization absent
+266,1588,2025-11-26,CO-50,Non-covered service
+267,1590,2024-02-10,CO-197,Precertification or authorization absent
+268,1604,2024-04-16,CO-50,Non-covered service
+269,1609,2024-12-27,CO-197,Precertification or authorization absent
+270,1611,2024-03-24,CO-197,Precertification or authorization absent
+271,1613,2025-08-18,CO-97,Benefit included in another service
+272,1618,2025-01-22,CO-11,Diagnosis inconsistent with procedure
+273,1621,2025-04-30,CO-197,Precertification or authorization absent
+274,1629,2025-09-27,CO-11,Diagnosis inconsistent with procedure
+275,1630,2024-01-24,CO-16,Claim lacks information needed for adjudication
+276,1639,2025-08-15,CO-11,Diagnosis inconsistent with procedure
+277,1652,2026-01-07,CO-197,Precertification or authorization absent
+278,1656,2025-08-04,CO-50,Non-covered service
+279,1660,2025-11-16,CO-11,Diagnosis inconsistent with procedure
+280,1662,2025-12-25,CO-50,Non-covered service
+281,1669,2025-04-15,CO-11,Diagnosis inconsistent with procedure
+282,1670,2025-09-01,CO-16,Claim lacks information needed for adjudication
+283,1681,2024-12-05,PR-1,Deductible amount
+284,1688,2024-09-20,CO-97,Benefit included in another service
+285,1701,2024-06-14,CO-97,Benefit included in another service
+286,1707,2025-01-07,CO-50,Non-covered service
+287,1709,2025-05-10,CO-197,Precertification or authorization absent
+288,1727,2024-09-17,CO-16,Claim lacks information needed for adjudication
+289,1734,2024-10-27,CO-16,Claim lacks information needed for adjudication
+290,1737,2024-06-19,CO-50,Non-covered service
+291,1758,2025-07-06,CO-29,Time limit for filing expired
+292,1763,2024-08-24,CO-16,Claim lacks information needed for adjudication
+293,1784,2025-10-13,CO-50,Non-covered service
+294,1785,2025-02-17,CO-97,Benefit included in another service
+295,1789,2024-07-08,CO-11,Diagnosis inconsistent with procedure
+296,1790,2025-05-29,CO-197,Precertification or authorization absent
+297,1801,2024-03-22,CO-16,Claim lacks information needed for adjudication
+298,1805,2024-06-14,PR-1,Deductible amount
+299,1812,2024-02-01,CO-16,Claim lacks information needed for adjudication
+300,1814,2025-04-05,CO-16,Claim lacks information needed for adjudication
+301,1815,2024-12-02,CO-50,Non-covered service
+302,1823,2025-06-08,CO-11,Diagnosis inconsistent with procedure
+303,1839,2024-01-30,CO-197,Precertification or authorization absent
+304,1847,2025-08-01,CO-16,Claim lacks information needed for adjudication
+305,1849,2024-08-31,CO-11,Diagnosis inconsistent with procedure
+306,1850,2024-09-21,CO-97,Benefit included in another service
+307,1854,2025-06-06,CO-16,Claim lacks information needed for adjudication
+308,1856,2025-06-24,CO-16,Claim lacks information needed for adjudication
+309,1859,2025-05-26,CO-97,Benefit included in another service
+310,1860,2024-10-01,CO-97,Benefit included in another service
+311,1868,2024-07-15,CO-16,Claim lacks information needed for adjudication
+312,1870,2024-04-27,CO-197,Precertification or authorization absent
+313,1872,2025-02-27,CO-16,Claim lacks information needed for adjudication
+314,1875,2025-03-10,CO-50,Non-covered service
+315,1882,2024-02-04,PR-1,Deductible amount
+316,1889,2024-04-19,CO-29,Time limit for filing expired
+317,1897,2025-03-14,CO-16,Claim lacks information needed for adjudication
+318,1899,2025-07-25,CO-97,Benefit included in another service
+319,1900,2024-09-19,CO-97,Benefit included in another service
+320,1903,2024-12-18,CO-29,Time limit for filing expired
+321,1905,2025-10-03,PR-1,Deductible amount
+322,1906,2024-11-09,CO-16,Claim lacks information needed for adjudication
+323,1910,2024-03-04,CO-97,Benefit included in another service
+324,1913,2025-09-10,CO-11,Diagnosis inconsistent with procedure
+325,1914,2024-06-23,CO-97,Benefit included in another service
+326,1918,2025-11-29,CO-16,Claim lacks information needed for adjudication
+327,1924,2025-08-16,PR-1,Deductible amount
+328,1927,2024-06-01,CO-197,Precertification or authorization absent
+329,1929,2025-06-08,CO-197,Precertification or authorization absent
+330,1936,2024-12-04,CO-11,Diagnosis inconsistent with procedure
+331,1937,2025-09-14,CO-97,Benefit included in another service
+332,1940,2026-01-22,CO-97,Benefit included in another service
+333,1941,2024-06-13,CO-97,Benefit included in another service
+334,1949,2024-12-08,CO-16,Claim lacks information needed for adjudication
+335,1980,2025-05-15,PR-1,Deductible amount
+336,1987,2025-06-30,CO-11,Diagnosis inconsistent with procedure
+337,2001,2024-03-10,CO-197,Precertification or authorization absent
+338,2027,2025-04-01,CO-16,Claim lacks information needed for adjudication
+339,2037,2024-09-16,CO-11,Diagnosis inconsistent with procedure
+340,2057,2024-03-15,CO-16,Claim lacks information needed for adjudication
+341,2075,2025-03-27,CO-11,Diagnosis inconsistent with procedure
+342,2078,2024-11-16,CO-29,Time limit for filing expired
+343,2080,2024-12-19,CO-50,Non-covered service
+344,2083,2025-05-16,CO-11,Diagnosis inconsistent with procedure
+345,2084,2024-08-27,CO-29,Time limit for filing expired
+346,2092,2024-11-28,CO-16,Claim lacks information needed for adjudication
+347,2100,2024-08-14,CO-11,Diagnosis inconsistent with procedure
+348,2103,2025-06-18,CO-16,Claim lacks information needed for adjudication
+349,2109,2024-12-11,PR-1,Deductible amount
+350,2118,2025-05-31,CO-50,Non-covered service
+351,2123,2025-02-09,PR-1,Deductible amount
+352,2125,2025-04-29,CO-29,Time limit for filing expired
+353,2137,2024-03-13,PR-1,Deductible amount
+354,2138,2024-03-31,CO-16,Claim lacks information needed for adjudication
+355,2141,2024-09-26,CO-11,Diagnosis inconsistent with procedure
+356,2142,2025-09-12,CO-29,Time limit for filing expired
+357,2156,2024-07-20,PR-1,Deductible amount
+358,2164,2024-11-16,CO-29,Time limit for filing expired
+359,2168,2024-03-15,CO-197,Precertification or authorization absent
+360,2169,2024-04-29,PR-1,Deductible amount
+361,2173,2024-03-09,CO-16,Claim lacks information needed for adjudication
+362,2174,2024-09-26,CO-16,Claim lacks information needed for adjudication
+363,2188,2024-02-12,CO-29,Time limit for filing expired
+364,2189,2025-10-17,CO-11,Diagnosis inconsistent with procedure
+365,2190,2024-11-24,CO-97,Benefit included in another service
+366,2202,2025-11-08,CO-97,Benefit included in another service
+367,2206,2024-06-23,CO-97,Benefit included in another service
+368,2222,2025-05-28,PR-1,Deductible amount
+369,2237,2025-06-19,CO-97,Benefit included in another service
+370,2240,2024-11-09,CO-16,Claim lacks information needed for adjudication
+371,2242,2025-04-02,PR-1,Deductible amount
+372,2243,2026-01-19,CO-29,Time limit for filing expired
+373,2251,2024-05-26,CO-97,Benefit included in another service
+374,2265,2024-12-27,CO-11,Diagnosis inconsistent with procedure
+375,2267,2024-02-14,CO-197,Precertification or authorization absent
+376,2269,2026-01-06,CO-97,Benefit included in another service
+377,2270,2026-01-23,CO-11,Diagnosis inconsistent with procedure
+378,2271,2025-06-30,PR-1,Deductible amount
+379,2279,2025-09-16,CO-11,Diagnosis inconsistent with procedure
+380,2282,2024-06-04,CO-16,Claim lacks information needed for adjudication
+381,2287,2024-02-03,PR-1,Deductible amount
+382,2296,2025-10-05,CO-11,Diagnosis inconsistent with procedure
+383,2298,2025-12-26,CO-11,Diagnosis inconsistent with procedure
+384,2309,2024-12-08,CO-29,Time limit for filing expired
+385,2319,2024-08-25,CO-16,Claim lacks information needed for adjudication
+386,2325,2025-02-25,CO-97,Benefit included in another service
+387,2331,2025-04-02,PR-1,Deductible amount
+388,2332,2025-07-25,PR-1,Deductible amount
+389,2342,2024-03-27,CO-16,Claim lacks information needed for adjudication
+390,2344,2026-01-16,CO-50,Non-covered service
+391,2362,2024-05-20,CO-11,Diagnosis inconsistent with procedure
+392,2363,2024-11-13,CO-197,Precertification or authorization absent
+393,2368,2024-11-13,CO-97,Benefit included in another service
+394,2378,2024-05-13,CO-16,Claim lacks information needed for adjudication
+395,2385,2025-06-27,CO-29,Time limit for filing expired
+396,2389,2024-04-03,CO-197,Precertification or authorization absent
+397,2398,2025-05-13,PR-1,Deductible amount
+398,2402,2025-11-24,CO-97,Benefit included in another service
+399,2403,2025-09-09,CO-97,Benefit included in another service
+400,2411,2025-09-09,CO-11,Diagnosis inconsistent with procedure
+401,2425,2024-10-18,CO-197,Precertification or authorization absent
+402,2438,2024-07-12,CO-16,Claim lacks information needed for adjudication
+403,2446,2024-12-31,CO-16,Claim lacks information needed for adjudication
+404,2447,2024-08-21,CO-197,Precertification or authorization absent
+405,2448,2025-06-21,CO-197,Precertification or authorization absent
+406,2458,2024-10-25,CO-11,Diagnosis inconsistent with procedure
+407,2461,2025-01-25,CO-16,Claim lacks information needed for adjudication
+408,2462,2025-05-11,CO-97,Benefit included in another service
+409,2466,2025-07-20,CO-11,Diagnosis inconsistent with procedure
+410,2467,2025-11-29,PR-1,Deductible amount
+411,2474,2024-04-13,CO-97,Benefit included in another service
+412,2479,2024-06-16,CO-97,Benefit included in another service
+413,2483,2025-01-05,CO-97,Benefit included in another service
+414,2485,2025-06-17,CO-16,Claim lacks information needed for adjudication
+415,2489,2025-07-04,PR-1,Deductible amount
+416,2496,2024-08-16,CO-16,Claim lacks information needed for adjudication
+417,2500,2024-02-25,CO-16,Claim lacks information needed for adjudication
+418,2507,2025-02-05,CO-16,Claim lacks information needed for adjudication
+419,2519,2024-07-15,CO-11,Diagnosis inconsistent with procedure
+420,2521,2024-07-22,CO-16,Claim lacks information needed for adjudication
+421,2524,2025-05-15,CO-16,Claim lacks information needed for adjudication
+422,2532,2025-03-29,CO-197,Precertification or authorization absent
+423,2549,2024-02-13,CO-29,Time limit for filing expired
+424,2552,2025-09-08,CO-29,Time limit for filing expired
+425,2558,2025-02-28,CO-29,Time limit for filing expired
+426,2563,2024-06-20,CO-16,Claim lacks information needed for adjudication
+427,2565,2024-03-14,PR-1,Deductible amount
+428,2569,2024-07-21,CO-97,Benefit included in another service
+429,2570,2024-07-29,PR-1,Deductible amount
+430,2587,2025-12-25,CO-16,Claim lacks information needed for adjudication
+431,2595,2024-11-03,CO-97,Benefit included in another service
+432,2599,2025-06-09,CO-97,Benefit included in another service
+433,2607,2024-12-01,CO-50,Non-covered service
+434,2621,2024-06-12,PR-1,Deductible amount
+435,2633,2024-10-15,CO-97,Benefit included in another service
+436,2648,2025-01-05,CO-11,Diagnosis inconsistent with procedure
+437,2650,2025-12-08,CO-29,Time limit for filing expired
+438,2653,2025-04-15,CO-11,Diagnosis inconsistent with procedure
+439,2654,2025-12-07,CO-197,Precertification or authorization absent
+440,2656,2025-03-31,CO-16,Claim lacks information needed for adjudication
+441,2658,2025-02-15,CO-11,Diagnosis inconsistent with procedure
+442,2659,2024-05-28,CO-11,Diagnosis inconsistent with procedure
+443,2663,2024-09-25,CO-97,Benefit included in another service
+444,2666,2024-11-07,CO-16,Claim lacks information needed for adjudication
+445,2684,2024-02-26,CO-16,Claim lacks information needed for adjudication
+446,2685,2024-12-10,PR-1,Deductible amount
+447,2687,2024-01-22,CO-29,Time limit for filing expired
+448,2688,2024-06-12,CO-11,Diagnosis inconsistent with procedure
+449,2691,2024-06-05,PR-1,Deductible amount
+450,2697,2025-03-03,CO-97,Benefit included in another service
+451,2700,2025-05-27,CO-97,Benefit included in another service
+452,2711,2024-08-30,CO-197,Precertification or authorization absent
+453,2714,2025-08-18,CO-16,Claim lacks information needed for adjudication
+454,2719,2025-06-03,CO-197,Precertification or authorization absent
+455,2742,2025-05-05,CO-50,Non-covered service
+456,2752,2024-02-20,CO-197,Precertification or authorization absent
+457,2754,2025-12-05,CO-11,Diagnosis inconsistent with procedure
+458,2756,2024-05-30,CO-11,Diagnosis inconsistent with procedure
+459,2764,2024-03-02,CO-197,Precertification or authorization absent
+460,2765,2024-07-01,CO-16,Claim lacks information needed for adjudication
+461,2767,2026-02-01,CO-97,Benefit included in another service
+462,2768,2025-06-16,PR-1,Deductible amount
+463,2769,2024-11-01,CO-16,Claim lacks information needed for adjudication
+464,2777,2025-06-13,CO-197,Precertification or authorization absent
+465,2778,2024-12-11,PR-1,Deductible amount
+466,2784,2024-05-16,CO-11,Diagnosis inconsistent with procedure
+467,2786,2025-06-20,CO-29,Time limit for filing expired
+468,2787,2024-11-03,CO-50,Non-covered service
+469,2803,2025-07-07,CO-16,Claim lacks information needed for adjudication
+470,2807,2025-06-07,CO-16,Claim lacks information needed for adjudication
+471,2813,2025-06-30,CO-197,Precertification or authorization absent
+472,2818,2024-02-21,CO-16,Claim lacks information needed for adjudication
+473,2823,2024-03-06,CO-11,Diagnosis inconsistent with procedure
+474,2827,2025-02-14,CO-97,Benefit included in another service
+475,2834,2024-12-05,CO-11,Diagnosis inconsistent with procedure
+476,2839,2025-03-25,CO-11,Diagnosis inconsistent with procedure
+477,2848,2024-12-28,CO-11,Diagnosis inconsistent with procedure
+478,2850,2025-05-19,CO-197,Precertification or authorization absent
+479,2852,2024-04-14,CO-16,Claim lacks information needed for adjudication
+480,2853,2024-08-29,CO-197,Precertification or authorization absent
+481,2862,2025-03-26,CO-29,Time limit for filing expired
+482,2873,2025-12-08,CO-16,Claim lacks information needed for adjudication
+483,2874,2025-06-13,CO-97,Benefit included in another service
+484,2880,2025-04-30,CO-29,Time limit for filing expired
+485,2890,2025-07-22,CO-197,Precertification or authorization absent
+486,2895,2024-10-30,CO-97,Benefit included in another service
+487,2903,2025-08-05,CO-16,Claim lacks information needed for adjudication
+488,2912,2024-04-15,CO-16,Claim lacks information needed for adjudication
+489,2914,2025-02-05,CO-11,Diagnosis inconsistent with procedure
+490,2915,2024-11-15,CO-16,Claim lacks information needed for adjudication
+491,2917,2025-01-20,CO-97,Benefit included in another service
+492,2918,2024-09-19,PR-1,Deductible amount
+493,2935,2026-01-27,CO-16,Claim lacks information needed for adjudication
+494,2937,2025-05-19,CO-16,Claim lacks information needed for adjudication
+495,2957,2025-01-25,CO-11,Diagnosis inconsistent with procedure
+496,2968,2024-04-01,CO-16,Claim lacks information needed for adjudication
+497,2997,2024-08-25,CO-50,Non-covered service
+498,2999,2024-08-11,CO-16,Claim lacks information needed for adjudication
+499,3008,2024-12-01,CO-16,Claim lacks information needed for adjudication
+500,3011,2025-05-15,CO-197,Precertification or authorization absent
+501,3022,2025-03-05,CO-197,Precertification or authorization absent
+502,3029,2025-04-12,CO-50,Non-covered service
+503,3036,2024-04-18,CO-29,Time limit for filing expired
+504,3048,2024-01-26,CO-29,Time limit for filing expired
+505,3054,2024-05-20,CO-29,Time limit for filing expired
+506,3062,2025-11-02,CO-197,Precertification or authorization absent
+507,3067,2025-07-03,PR-1,Deductible amount
+508,3079,2025-04-21,CO-197,Precertification or authorization absent
+509,3081,2025-07-23,PR-1,Deductible amount
+510,3083,2024-04-17,CO-16,Claim lacks information needed for adjudication
+511,3085,2025-10-02,CO-50,Non-covered service
+512,3086,2025-11-24,CO-16,Claim lacks information needed for adjudication
+513,3087,2025-03-05,CO-16,Claim lacks information needed for adjudication
+514,3098,2025-01-09,CO-197,Precertification or authorization absent
+515,3099,2025-09-04,PR-1,Deductible amount
+516,3105,2025-10-07,CO-97,Benefit included in another service
+517,3107,2025-05-22,CO-16,Claim lacks information needed for adjudication
+518,3119,2025-05-05,CO-11,Diagnosis inconsistent with procedure
+519,3123,2024-06-12,CO-29,Time limit for filing expired
+520,3134,2024-06-05,CO-11,Diagnosis inconsistent with procedure
+521,3141,2024-02-12,CO-197,Precertification or authorization absent
+522,3150,2024-08-04,CO-197,Precertification or authorization absent
+523,3195,2024-08-26,CO-16,Claim lacks information needed for adjudication
+524,3201,2025-02-28,CO-97,Benefit included in another service
+525,3210,2024-10-23,CO-16,Claim lacks information needed for adjudication
+526,3224,2025-10-18,CO-97,Benefit included in another service
+527,3232,2025-06-30,CO-97,Benefit included in another service
+528,3233,2024-05-11,CO-197,Precertification or authorization absent
+529,3235,2025-11-16,CO-16,Claim lacks information needed for adjudication
+530,3238,2025-06-16,CO-50,Non-covered service
+531,3239,2025-07-21,CO-16,Claim lacks information needed for adjudication
+532,3241,2025-11-03,PR-1,Deductible amount
+533,3243,2025-06-26,CO-197,Precertification or authorization absent
+534,3247,2025-10-14,CO-97,Benefit included in another service
+535,3253,2024-06-09,CO-50,Non-covered service
+536,3256,2024-09-08,CO-16,Claim lacks information needed for adjudication
+537,3273,2024-12-14,CO-16,Claim lacks information needed for adjudication
+538,3276,2025-10-14,CO-97,Benefit included in another service
+539,3281,2024-09-01,PR-1,Deductible amount
+540,3286,2025-11-14,PR-1,Deductible amount
+541,3293,2024-09-28,PR-1,Deductible amount
+542,3302,2024-07-23,CO-11,Diagnosis inconsistent with procedure
+543,3304,2024-12-11,CO-50,Non-covered service
+544,3305,2024-10-18,CO-16,Claim lacks information needed for adjudication
+545,3311,2024-05-24,CO-197,Precertification or authorization absent
+546,3328,2024-12-21,CO-16,Claim lacks information needed for adjudication
+547,3334,2024-08-20,CO-50,Non-covered service
+548,3335,2025-09-18,CO-197,Precertification or authorization absent
+549,3344,2025-08-27,CO-197,Precertification or authorization absent
+550,3347,2024-09-12,CO-11,Diagnosis inconsistent with procedure
+551,3354,2025-08-22,CO-16,Claim lacks information needed for adjudication
+552,3355,2025-09-11,CO-16,Claim lacks information needed for adjudication
+553,3356,2026-01-21,CO-16,Claim lacks information needed for adjudication
+554,3360,2025-08-13,CO-197,Precertification or authorization absent
+555,3362,2025-05-22,CO-16,Claim lacks information needed for adjudication
+556,3364,2025-08-21,CO-11,Diagnosis inconsistent with procedure
+557,3367,2025-03-25,CO-11,Diagnosis inconsistent with procedure
+558,3378,2025-07-18,CO-16,Claim lacks information needed for adjudication
+559,3384,2024-11-29,CO-16,Claim lacks information needed for adjudication
+560,3397,2024-04-23,CO-11,Diagnosis inconsistent with procedure
+561,3398,2024-08-07,CO-16,Claim lacks information needed for adjudication
+562,3405,2024-10-25,CO-16,Claim lacks information needed for adjudication
+563,3411,2024-10-04,CO-197,Precertification or authorization absent
+564,3418,2025-08-30,PR-1,Deductible amount
+565,3420,2025-04-11,PR-1,Deductible amount
+566,3427,2024-10-09,PR-1,Deductible amount
+567,3429,2025-06-07,PR-1,Deductible amount
+568,3434,2025-03-08,CO-50,Non-covered service
+569,3444,2025-08-19,CO-50,Non-covered service
+570,3451,2025-07-20,CO-50,Non-covered service
+571,3455,2024-05-17,CO-16,Claim lacks information needed for adjudication
+572,3458,2025-11-04,CO-50,Non-covered service
+573,3459,2025-03-11,CO-50,Non-covered service
+574,3460,2025-04-09,CO-197,Precertification or authorization absent
+575,3466,2025-08-21,CO-29,Time limit for filing expired
+576,3470,2025-04-12,CO-16,Claim lacks information needed for adjudication
+577,3478,2024-09-07,CO-11,Diagnosis inconsistent with procedure
+578,3479,2025-04-25,CO-16,Claim lacks information needed for adjudication
+579,3485,2025-04-12,CO-29,Time limit for filing expired
+580,3496,2024-04-18,CO-16,Claim lacks information needed for adjudication
+581,3511,2025-04-11,CO-197,Precertification or authorization absent
+582,3513,2024-12-22,CO-197,Precertification or authorization absent
+583,3514,2024-08-07,CO-97,Benefit included in another service
+584,3521,2024-11-22,CO-197,Precertification or authorization absent
+585,3522,2025-04-11,CO-16,Claim lacks information needed for adjudication
+586,3523,2025-11-16,CO-16,Claim lacks information needed for adjudication
+587,3528,2024-04-06,CO-11,Diagnosis inconsistent with procedure
+588,3533,2024-05-06,CO-11,Diagnosis inconsistent with procedure
+589,3537,2024-10-07,CO-97,Benefit included in another service
+590,3539,2024-07-11,CO-16,Claim lacks information needed for adjudication
+591,3554,2025-12-18,CO-97,Benefit included in another service
+592,3558,2025-11-29,CO-11,Diagnosis inconsistent with procedure
+593,3562,2024-05-16,CO-16,Claim lacks information needed for adjudication
+594,3567,2024-02-20,CO-97,Benefit included in another service
+595,3570,2025-09-27,PR-1,Deductible amount
+596,3584,2025-08-09,CO-197,Precertification or authorization absent
+597,3589,2024-06-11,CO-29,Time limit for filing expired
+598,3599,2024-10-29,PR-1,Deductible amount
+599,3604,2024-07-09,CO-16,Claim lacks information needed for adjudication
+600,3605,2024-10-01,CO-97,Benefit included in another service
+601,3610,2025-06-20,CO-11,Diagnosis inconsistent with procedure
+602,3612,2024-12-20,CO-97,Benefit included in another service
+603,3618,2024-11-09,CO-197,Precertification or authorization absent
+604,3621,2024-06-01,CO-16,Claim lacks information needed for adjudication
+605,3622,2024-10-30,CO-11,Diagnosis inconsistent with procedure
+606,3626,2024-03-20,CO-97,Benefit included in another service
+607,3634,2025-11-18,CO-16,Claim lacks information needed for adjudication
+608,3642,2025-10-25,CO-11,Diagnosis inconsistent with procedure
+609,3643,2024-04-03,CO-16,Claim lacks information needed for adjudication
+610,3651,2024-12-29,CO-29,Time limit for filing expired
+611,3666,2024-10-17,CO-11,Diagnosis inconsistent with procedure
+612,3667,2024-10-10,CO-16,Claim lacks information needed for adjudication
+613,3671,2025-02-24,CO-11,Diagnosis inconsistent with procedure
+614,3672,2024-10-11,CO-11,Diagnosis inconsistent with procedure
+615,3676,2025-07-29,CO-29,Time limit for filing expired
+616,3683,2025-09-22,CO-16,Claim lacks information needed for adjudication
+617,3700,2024-07-10,CO-29,Time limit for filing expired
+618,3704,2024-10-15,CO-50,Non-covered service
+619,3713,2024-04-28,CO-50,Non-covered service
+620,3715,2024-08-27,CO-16,Claim lacks information needed for adjudication
+621,3726,2024-06-21,CO-197,Precertification or authorization absent
+622,3728,2025-06-19,CO-11,Diagnosis inconsistent with procedure
+623,3729,2025-11-30,CO-29,Time limit for filing expired
+624,3734,2025-09-12,CO-16,Claim lacks information needed for adjudication
+625,3745,2024-09-19,PR-1,Deductible amount
+626,3765,2025-07-12,CO-197,Precertification or authorization absent
+627,3768,2025-04-06,CO-29,Time limit for filing expired
+628,3778,2024-10-14,CO-197,Precertification or authorization absent
+629,3788,2025-09-05,CO-11,Diagnosis inconsistent with procedure
+630,3798,2024-10-28,CO-197,Precertification or authorization absent
+631,3808,2025-07-05,CO-11,Diagnosis inconsistent with procedure
+632,3816,2025-06-12,CO-197,Precertification or authorization absent
+633,3822,2025-12-12,CO-16,Claim lacks information needed for adjudication
+634,3827,2024-06-19,CO-197,Precertification or authorization absent
+635,3832,2024-11-23,CO-97,Benefit included in another service
+636,3833,2024-12-31,PR-1,Deductible amount
+637,3843,2025-11-13,CO-197,Precertification or authorization absent
+638,3844,2025-09-01,CO-97,Benefit included in another service
+639,3845,2024-09-04,CO-197,Precertification or authorization absent
+640,3848,2025-10-15,CO-50,Non-covered service
+641,3859,2025-06-09,CO-16,Claim lacks information needed for adjudication
+642,3870,2025-01-04,PR-1,Deductible amount
+643,3874,2026-01-20,CO-97,Benefit included in another service
+644,3876,2024-12-23,PR-1,Deductible amount
+645,3887,2024-07-09,CO-50,Non-covered service
+646,3888,2025-11-28,CO-11,Diagnosis inconsistent with procedure
+647,3893,2024-07-04,CO-11,Diagnosis inconsistent with procedure
+648,3895,2024-12-22,CO-97,Benefit included in another service
+649,3896,2026-01-13,CO-11,Diagnosis inconsistent with procedure
+650,3898,2024-04-23,CO-50,Non-covered service
+651,3905,2024-03-16,CO-97,Benefit included in another service
+652,3907,2024-02-19,CO-97,Benefit included in another service
+653,3908,2025-03-20,CO-16,Claim lacks information needed for adjudication
+654,3909,2024-12-16,CO-16,Claim lacks information needed for adjudication
+655,3911,2024-11-09,CO-16,Claim lacks information needed for adjudication
+656,3936,2024-07-06,CO-16,Claim lacks information needed for adjudication
+657,3942,2024-10-12,CO-197,Precertification or authorization absent
+658,3960,2025-02-05,CO-97,Benefit included in another service
+659,3967,2025-06-20,CO-11,Diagnosis inconsistent with procedure
+660,3974,2025-05-09,CO-11,Diagnosis inconsistent with procedure
+661,3993,2025-04-12,CO-11,Diagnosis inconsistent with procedure
